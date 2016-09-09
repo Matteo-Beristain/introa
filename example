@@ -1,0 +1,8 @@
+<script>
+    
+    
+    var firstName = prompt("Enter your name");
+    var favColor = prompt( "Enter your favorite color");
+    alert("Hello " + firstName + "!" + " Your favorite color is " + favColor); 
+    
+</script>
