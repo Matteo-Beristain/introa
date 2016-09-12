@@ -1,0 +1,19 @@
+<script>
+    //initial prompt
+    var char = prompt("What's on your mind?");
+    
+    //over char limit
+    if (char.length > 140)
+    {
+    alert("Exceded 140 character limit by " + (char.length - 140 )+ " characters")
+    prompt
+    }
+  
+    //under 140  
+    else
+    {
+    prompt("Are you ready to post? You  have " + (char.length - 140) + " characters remaining")
+    console.log(char)
+    }
+    
+</script>
